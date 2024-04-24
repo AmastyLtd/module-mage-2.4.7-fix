@@ -1,0 +1,20 @@
+{
+    "name": "amasty/module-mage-2.4.7-fix",
+    "description": "Fix bug related to the 2.4.7 Magento version",
+    "require": {
+        "php": ">=7.3",
+        "magento/framework": ">=103.0.7"
+    },
+    "homepage": "https://amasty.com/",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": "proprietary",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Amasty\\Mage2.4.7Fix\\": ""
+        }
+    }
+}
